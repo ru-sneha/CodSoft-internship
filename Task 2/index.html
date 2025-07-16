@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sketching & Arts | Landing Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gradient-to-br from-pink-50 via-blue-50 to-green-50 text-gray-900 font-sans overflow-x-hidden">
+  <!-- Hero Section -->
+  <section class="relative min-h-screen flex flex-col justify-center items-center text-center px-4 animated-bg">
+    <div class="absolute inset-0 w-full h-full z-0 pointer-events-none">
+      <div class="w-full h-full bg-gradient-to-br from-pink-200 via-blue-200 to-green-200 opacity-60 animate-gradient-move"></div>
+      <svg class="absolute top-0 left-0 w-full h-full opacity-20" viewBox="0 0 1440 320"><path fill="#fbb6ce" fill-opacity="1" d="M0,224L48,197.3C96,171,192,117,288,117.3C384,117,480,171,576,197.3C672,224,768,224,864,197.3C960,171,1056,117,1152,128C1248,139,1344,213,1392,250.7L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    </div>
+    <div class="relative z-10 pt-32 pb-16">
+      <h1 class="text-5xl md:text-6xl font-extrabold mb-4 animate-fade-in-up">Unleash Your Creativity</h1>
+      <p class="text-xl md:text-2xl text-gray-700 mb-8 animate-fade-in">Explore the world of <span class="text-pink-500 font-bold">Sketching</span> & <span class="text-blue-500 font-bold">Arts</span> with inspiration, tutorials, and a vibrant community.</p>
+      <a href="#gallery" class="px-8 py-3 bg-gradient-to-r from-pink-400 to-blue-400 text-white rounded-full shadow-lg font-semibold text-lg hover:scale-105 transform transition animate-bounce-in">View Gallery</a>
+    </div>
+    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" alt="Sketching Hero" class="rounded-3xl shadow-2xl w-full max-w-2xl mx-auto mt-8 animate-slide-in-up object-cover border-8 border-white">
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="max-w-4xl mx-auto py-20 px-4 animate-fade-in">
+    <h2 class="text-3xl font-bold mb-6">About Sketching & Arts</h2>
+    <p class="text-lg text-gray-700 mb-6">Sketching and art are more than just hobbies—they are powerful forms of self-expression, relaxation, and communication. Whether you're a beginner or a seasoned artist, our platform offers resources, inspiration, and a supportive community to help you grow your skills and share your passion.</p>
+    <div class="flex flex-col md:flex-row gap-8 items-center">
+      <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="About Sketching" class="w-64 h-64 rounded-2xl shadow-lg object-cover mb-4 md:mb-0">
+      <ul class="list-disc list-inside text-gray-600 text-left">
+        <li>Step-by-step tutorials for all levels</li>
+        <li>Inspiration from global artists</li>
+        <li>Community challenges and events</li>
+        <li>Tips on materials, techniques, and creativity</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="bg-blue-50 py-20 px-4 animate-fade-in-up">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-3xl font-bold mb-8">Gallery</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=400&q=80" alt="Art 1" class="rounded-xl shadow-lg hover:scale-105 transition-transform object-cover h-48 w-full">
+        <img src="https://images.unsplash.com/photo-1465101178521-c1a9136a3b99?auto=format&fit=crop&w=400&q=80" alt="Art 2" class="rounded-xl shadow-lg hover:scale-105 transition-transform object-cover h-48 w-full">
+        <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=400&q=80" alt="Art 3" class="rounded-xl shadow-lg hover:scale-105 transition-transform object-cover h-48 w-full">
+        <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" alt="Art 4" class="rounded-xl shadow-lg hover:scale-105 transition-transform object-cover h-48 w-full">
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="max-w-5xl mx-auto py-20 px-4 animate-slide-in-right">
+    <h2 class="text-3xl font-bold mb-8">Why Join Us?</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white rounded-2xl shadow-lg p-8 flex flex-col items-center hover:scale-105 transition-transform animate-fade-in">
+        <svg class="w-12 h-12 mb-4 text-pink-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 20l9-5-9-5-9 5 9 5z"/><path stroke-linecap="round" stroke-linejoin="round" d="M12 12V4l9 5-9 5-9-5 9-5z"/></svg>
+        <h3 class="font-bold text-xl mb-2">Learn & Grow</h3>
+        <p class="text-gray-600">Access tutorials, guides, and resources to improve your sketching and art skills at your own pace.</p>
+      </div>
+      <div class="bg-white rounded-2xl shadow-lg p-8 flex flex-col items-center hover:scale-105 transition-transform animate-fade-in">
+        <svg class="w-12 h-12 mb-4 text-blue-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path stroke-linecap="round" stroke-linejoin="round" d="M8 12h4l3 6"/></svg>
+        <h3 class="font-bold text-xl mb-2">Showcase Your Art</h3>
+        <p class="text-gray-600">Share your creations with a supportive community and get feedback from fellow artists.</p>
+      </div>
+      <div class="bg-white rounded-2xl shadow-lg p-8 flex flex-col items-center hover:scale-105 transition-transform animate-fade-in">
+        <svg class="w-12 h-12 mb-4 text-green-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a4 4 0 00-3-3.87M9 20H4v-2a4 4 0 013-3.87M16 3.13a4 4 0 010 7.75M8 3.13a4 4 0 000 7.75"/></svg>
+        <h3 class="font-bold text-xl mb-2">Connect & Collaborate</h3>
+        <p class="text-gray-600">Join events, challenges, and collaborate with artists from around the world.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="max-w-4xl mx-auto py-20 px-4 animate-fade-in-up">
+    <h2 class="text-3xl font-bold mb-8">What Artists Say</h2>
+    <div class="grid md:grid-cols-2 gap-8">
+      <div class="bg-white rounded-2xl shadow p-6 flex flex-col items-center">
+        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Artist 1" class="w-16 h-16 rounded-full mb-4">
+        <p class="text-gray-700 italic mb-2">"This platform reignited my passion for sketching. The tutorials and community are amazing!"</p>
+        <span class="font-bold text-sm text-gray-600">Priya S., Illustrator</span>
+      </div>
+      <div class="bg-white rounded-2xl shadow p-6 flex flex-col items-center">
+        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Artist 2" class="w-16 h-16 rounded-full mb-4">
+        <p class="text-gray-700 italic mb-2">"I love sharing my art and getting feedback. The gallery is so inspiring!"</p>
+        <span class="font-bold text-sm text-gray-600">Rahul V., Sketch Artist</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="max-w-3xl mx-auto py-20 px-4 animate-slide-in-up">
+    <h2 class="text-3xl font-bold mb-4">Contact Us</h2>
+    <form class="bg-white rounded-2xl shadow p-8 flex flex-col gap-4" id="contactForm" novalidate>
+      <input type="text" placeholder="Your Name" class="border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-pink-200" name="name" required minlength="2">
+      <input type="email" placeholder="Your Email" class="border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-pink-200" name="email" required>
+      <textarea placeholder="Your Message" class="border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-pink-200" name="message" required minlength="5"></textarea>
+      <button type="submit" class="bg-gradient-to-r from-pink-400 to-blue-400 text-white rounded px-6 py-2 font-semibold hover:scale-105 transition">Send Message</button>
+      <div id="formFeedback"></div>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 text-gray-500 text-sm animate-fade-in">
+    &copy; 2024 Sketching & Arts. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
